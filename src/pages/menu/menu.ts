@@ -60,7 +60,7 @@ export class Menu {
 
   openCategoryPage(category){
 
-    this.navCtrl.setRoot(ProductsByCategory, { "category":  category});
+    this.navCtrl.push(ProductsByCategory, { "category":  category});
 
   }
 
